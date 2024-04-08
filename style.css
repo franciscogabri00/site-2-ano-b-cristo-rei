@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    background-image: linear-gradient(to right , #a70052 , #0f094f , #0000ff);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.barra-pesquisa{
+    width: 250px;
+    height: 30px;
+    border-radius: 11px;
+    border:4px solid aquamarine ;
+}
+.botão-login{
+    width:100px ;
+    height: 30px;
+    background-color:white;
+    border-radius: 11px;
+    border: 4px solid aquamarine ;
+    font-size: 18px;
+}
+.botão-login:hover{
+    background-color: aqua;
+    color: red;
+}
+.cabecalho_direito{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 27%;
+}
+.banner-principal{
+    text-align: center;
+}
+.botoes{
+    justify-content: space-around;
+    display: flex;
+    background-image: linear-gradient(to right , #a70052 , #0f094f , #0000ff );
+    height: 175px;
+}
